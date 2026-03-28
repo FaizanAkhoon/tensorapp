@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Sparkles, ChevronUp, ChevronDown, Spray, Droplets, CalendarClock, AlertTriangle, CheckCircle2, Clock } from "lucide-react"
+import { Sparkles, ChevronUp, ChevronDown, SprayCan, Droplets, CalendarClock, AlertTriangle, CheckCircle2, Clock } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 
@@ -26,7 +26,7 @@ const tasks: TaskCard[] = [
     title: "Spray Recommendation",
     description: "Apply fungicide to Field C - early blight detected in soybean crop. Optimal window: next 48 hours.",
     priority: "high",
-    icon: <Spray className="h-6 w-6" />,
+    icon: <SprayCan className="h-6 w-6" />,
     timing: "Urgent - Next 48h",
     status: "pending",
   },

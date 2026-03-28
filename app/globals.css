@@ -74,6 +74,42 @@
   --sidebar-ring: oklch(0.439 0 0);
 }
 
+/* High-contrast Emerald / White / Orange — scoped to /dashboard for outdoor readability */
+.dashboard-outdoor {
+  --background: oklch(0.99 0.012 145);
+  --foreground: oklch(0.2 0.065 158);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.2 0.065 158);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.2 0.065 158);
+  --primary: oklch(0.46 0.145 163);
+  --primary-foreground: oklch(0.995 0.008 145);
+  --secondary: oklch(0.93 0.035 155);
+  --secondary-foreground: oklch(0.22 0.07 158);
+  --muted: oklch(0.93 0.025 150);
+  --muted-foreground: oklch(0.36 0.045 158);
+  --accent: oklch(0.63 0.195 48);
+  --accent-foreground: oklch(0.16 0.04 48);
+  --destructive: oklch(0.48 0.21 25);
+  --destructive-foreground: oklch(0.995 0 0);
+  --border: oklch(0.7 0.065 155);
+  --input: oklch(0.7 0.065 155);
+  --ring: oklch(0.46 0.145 163);
+  --chart-1: oklch(0.46 0.145 163);
+  --chart-2: oklch(0.63 0.195 48);
+  --chart-3: oklch(0.52 0.1 200);
+  --chart-4: oklch(0.42 0.09 145);
+  --chart-5: oklch(0.55 0.16 55);
+  --sidebar: oklch(0.965 0.025 150);
+  --sidebar-foreground: oklch(0.2 0.065 158);
+  --sidebar-primary: oklch(0.46 0.145 163);
+  --sidebar-primary-foreground: oklch(0.995 0.008 145);
+  --sidebar-accent: oklch(0.93 0.035 155);
+  --sidebar-accent-foreground: oklch(0.22 0.07 158);
+  --sidebar-border: oklch(0.7 0.065 155);
+  --sidebar-ring: oklch(0.46 0.145 163);
+}
+
 @theme inline {
   --font-sans: 'Geist', 'Geist Fallback';
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
